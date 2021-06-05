@@ -1,0 +1,38 @@
+{
+  "name": "koa-staging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tugenhua0707/koa-staging.git"
+  },
+  "keywords": [
+    "koa脚手架，node脚手架"
+  ],
+  "author": "tugenhua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tugenhua0707/koa-staging/issues"
+  },
+  "homepage": "https://github.com/tugenhua0707/koa-staging#readme",
+  "dependencies": {
+    "apollo-server-koa": "^2.16.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0",
+    "koa-static-cache": "^5.1.3",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-register": "^6.26.0",
+    "nodemon": "^2.0.4"
+  }
+}
